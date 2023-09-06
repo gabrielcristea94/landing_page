@@ -83,7 +83,7 @@ a {
     color: white;
     max-width: fit-content;
     border-radius: 6px;
-    padding: 10px 24px 10px;
+    padding: 8px 24px 8px;
     font-weight: bold;
     border-style: none;
  }
@@ -128,11 +128,12 @@ a {
     flex-direction: column;
     height: auto;
     background-color: #E5E7EB;
-    padding: 42px;
+    padding: 100px;
     gap: 24px;
     justify-content: center;
     align-items: center;
-    margin-top: 64px;
+    margin-top: 100px;
+    margin-bottom: 88px;
  }
  
  .quote, .author {
@@ -146,3 +147,48 @@ a {
     align-items: flex-end;
  }
  
+ .call2act {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 34px 88px 34px;
+    max-width: fit-content;
+    height: auto;
+    background-color: #3882F6;
+    color: white;
+    margin:auto;
+    gap: 48px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    
+ }
+
+ .text1 {
+    font-weight: bold;
+    max-width: fit-content;
+ }
+
+ .button1 {
+    background-color: #3882F6;
+    color: white;
+    max-width: fit-content;
+    border-radius: 6px;
+    padding: 8px 28px 8px;
+    font-weight: bold;
+    border-style: none;
+    border: 2px solid white;
+    
+ }
+
+ .footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #1F2937;
+   height: auto;
+   color: white;
+   padding: 24px;
+   margin-top: 88px;
+   flex: 1 1 auto;
+ }
