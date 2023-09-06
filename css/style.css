@@ -2,7 +2,9 @@
 body {
     margin: 0px;
     flex-wrap: wrap;
-
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .container {
@@ -190,5 +192,4 @@ a {
    color: white;
    padding: 24px;
    margin-top: 88px;
-   flex: 1 1 auto;
  }
